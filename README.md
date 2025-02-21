@@ -14,27 +14,7 @@ VoteSphere is a **secure, user-friendly e-voting system** built with Java, desig
 - **View Results:** After the election, users can view detailed results in real-time, providing transparency in the voting process.
 
 
-## Demo
 
-![VoteSphere Demo](path-to-your-demo-image.gif)
-
-### Try it out now!
-
-This system can be used for both **small-scale** and **large-scale** elections. Feel free to explore the demo once the setup is complete.
-
-
-## Screenshots
-
-![Voter Registration Form](assets/registration_form.png)
-
-### Voter Registration Form: A simple and intuitive form for voter registration.
-
-![Main Balloting Interface](assets/main_interface.png)
-
-### Main Balloting Interface: Easy-to-use interface for securely casting votes during elections.
-
-
-### Voter Dashboard: Easy-to-use interface for casting votes securely.
 
 ## Technologies Used
 
@@ -61,8 +41,8 @@ VoteSphere is licensed under the [MIT License](https://opensource.org/licenses/M
 
 For any inquiries or support, feel free to reach out via:
 
-- Email: your.email@example.com
-- GitHub: [yourusername](https://github.com/yourusername)
+- Email: mariamqadeem181@gmail.com
+- GitHub: [MQ-06](https://github.com/MQ-06)
 
 ---
 
