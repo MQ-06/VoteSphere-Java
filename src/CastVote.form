@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="CastVote">
+  <grid id="27dc6" binding="MAINBALLOTING" layout-manager="GridLayoutManager" row-count="4" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="978" height="400"/>
+    </constraints>
+    <properties>
+      <background color="-16252922"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="364b" binding="FORM" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-16252922"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="8cdf3" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font size="24" style="1"/>
+              <foreground color="-1"/>
+              <text value="BALLOT FORM"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="89e52" binding="SUBMIT" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-16252922"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="3b0a6" class="javax.swing.JButton" binding="SUBMITVOTEButton" default-binding="true">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-14639086"/>
+              <foreground color="-16252922"/>
+              <text value="SUBMIT VOTE"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="99c47" binding="PARTIES" layout-manager="GridLayoutManager" row-count="9" column-count="5" same-size-horizontally="true" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="1" column="0" row-span="2" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-984575"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <grid id="72453" binding="HEADINGS" layout-manager="GridLayoutManager" row-count="1" column-count="5" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="5" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-14639086"/>
+            </properties>
+            <clientProperties>
+              <html.disable class="java.lang.Boolean" value="true"/>
+            </clientProperties>
+            <border type="none"/>
+            <children>
+              <component id="7f589" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="CANDIDATE ID"/>
+                </properties>
+              </component>
+              <component id="1ebe1" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="PARTY"/>
+                </properties>
+              </component>
+              <component id="242a" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="VOTE"/>
+                </properties>
+              </component>
+              <component id="3ff3f" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="0" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value=""/>
+                </properties>
+              </component>
+              <component id="71adb" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="NAME"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <component id="ad344" class="javax.swing.JLabel" binding="one">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-3868015"/>
+              <text value="GE24-000001"/>
+            </properties>
+          </component>
+          <component id="8a5a8" class="javax.swing.JLabel" binding="PTI">
+            <constraints>
+              <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="PT1"/>
+            </properties>
+          </component>
+          <component id="8674c" class="javax.swing.JLabel" binding="IK">
+            <constraints>
+              <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="IMRAN KHAN"/>
+            </properties>
+          </component>
+          <component id="b08a1" class="javax.swing.JLabel" binding="BB">
+            <constraints>
+              <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="BILAWAL BHUTTO"/>
+            </properties>
+          </component>
+          <component id="390c2" class="javax.swing.JLabel" binding="PPP">
+            <constraints>
+              <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="PPP"/>
+            </properties>
+          </component>
+          <component id="de8ee" class="javax.swing.JLabel" binding="two">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-3868015"/>
+              <text value="GE24-000002"/>
+            </properties>
+          </component>
+          <component id="79170" class="javax.swing.JLabel" binding="AA">
+            <constraints>
+              <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="AFAQ AHMAD"/>
+            </properties>
+          </component>
+          <component id="62045" class="javax.swing.JLabel" binding="MQM">
+            <constraints>
+              <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="MQM"/>
+            </properties>
+          </component>
+          <component id="5f52d" class="javax.swing.JLabel" binding="three">
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-3868015"/>
+              <text value="GE24-000003"/>
+            </properties>
+          </component>
+          <component id="b19fa" class="javax.swing.JLabel" binding="four">
+            <constraints>
+              <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-3868015"/>
+              <text value="GE24-000004"/>
+            </properties>
+          </component>
+          <component id="d5782" class="javax.swing.JLabel" binding="MN">
+            <constraints>
+              <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="MARYAM NAWAZ"/>
+            </properties>
+          </component>
+          <component id="b3377" class="javax.swing.JLabel" binding="PMLN">
+            <constraints>
+              <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="PML-N"/>
+            </properties>
+          </component>
+          <component id="5f1cb" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="6" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="IPP"/>
+            </properties>
+          </component>
+          <component id="b9d1c" class="javax.swing.JLabel" binding="JT">
+            <constraints>
+              <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="JAHANGIR TAREEN"/>
+            </properties>
+          </component>
+          <component id="284af" class="javax.swing.JLabel" binding="five">
+            <constraints>
+              <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-3868015"/>
+              <text value="GE24-000005"/>
+            </properties>
+          </component>
+          <component id="f96a8" class="javax.swing.JLabel" binding="FR">
+            <constraints>
+              <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="FAZUL-UR-REHMAN"/>
+            </properties>
+          </component>
+          <component id="3ae27" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="5" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="JAMIAT ISLAM"/>
+            </properties>
+          </component>
+          <component id="df686" class="javax.swing.JLabel" binding="six">
+            <constraints>
+              <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-3868015"/>
+              <text value="GE24-000006"/>
+            </properties>
+          </component>
+          <component id="87db7" class="javax.swing.JLabel" binding="eight">
+            <constraints>
+              <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-3868015"/>
+              <text value="GE24-000008"/>
+            </properties>
+          </component>
+          <component id="82882" class="javax.swing.JLabel" binding="SR">
+            <constraints>
+              <grid row="8" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="SHEIKH RASHEED"/>
+            </properties>
+          </component>
+          <component id="87349" class="javax.swing.JLabel" binding="PMLNT">
+            <constraints>
+              <grid row="7" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="PML-N"/>
+            </properties>
+          </component>
+          <component id="27ef0" class="javax.swing.JLabel" binding="SS">
+            <constraints>
+              <grid row="7" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="SHAHBAZ SHAREEF"/>
+            </properties>
+          </component>
+          <component id="3b45b" class="javax.swing.JLabel" binding="seven">
+            <constraints>
+              <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-3868015"/>
+              <text value="GE24-000007"/>
+            </properties>
+          </component>
+          <component id="c13f0" class="javax.swing.JLabel" binding="PTIT">
+            <constraints>
+              <grid row="8" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="PTI"/>
+            </properties>
+          </component>
+          <component id="71139" class="javax.swing.JCheckBox" binding="VOTECheckBox" default-binding="true">
+            <constraints>
+              <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-1711097"/>
+              <text value="IMRAN KHAN"/>
+            </properties>
+          </component>
+          <component id="24770" class="javax.swing.JCheckBox" binding="VOTECheckBox1" default-binding="true">
+            <constraints>
+              <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-984575"/>
+              <text value="BILAWAL BHUTTO"/>
+            </properties>
+          </component>
+          <component id="581b6" class="javax.swing.JCheckBox" binding="VOTECheckBox2" default-binding="true">
+            <constraints>
+              <grid row="3" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-984575"/>
+              <selected value="false"/>
+              <text value="MARYAM NAWAZ"/>
+            </properties>
+          </component>
+          <component id="88c" class="javax.swing.JCheckBox" binding="VOTECheckBox3" default-binding="true">
+            <constraints>
+              <grid row="4" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-984575"/>
+              <text value="AFAZ AHMAD"/>
+            </properties>
+          </component>
+          <component id="2906" class="javax.swing.JCheckBox" binding="VOTECheckBox4" default-binding="true">
+            <constraints>
+              <grid row="5" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-984575"/>
+              <text value="FAZUL-UR-REHMAN"/>
+            </properties>
+          </component>
+          <component id="40421" class="javax.swing.JCheckBox" binding="VOTECheckBox5" default-binding="true">
+            <constraints>
+              <grid row="6" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-984575"/>
+              <foreground color="-1048577"/>
+              <text value="JAHANGIR TAREEN"/>
+            </properties>
+          </component>
+          <component id="a99e7" class="javax.swing.JCheckBox" binding="VOTECheckBox6" default-binding="true">
+            <constraints>
+              <grid row="7" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-984575"/>
+              <foreground color="-1048577"/>
+              <hideActionText value="true"/>
+              <text value="SHAHBAZ SHAREEF"/>
+            </properties>
+          </component>
+          <component id="45cb" class="javax.swing.JCheckBox" binding="VOTECheckBox7" default-binding="true">
+            <constraints>
+              <grid row="8" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-984575"/>
+              <text value="SHEIKH RASHEED"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
